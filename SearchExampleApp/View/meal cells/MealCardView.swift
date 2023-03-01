@@ -51,7 +51,7 @@ struct MealCardView: View {
             }
             .padding(.horizontal, 15)
         }
-        .groupBoxStyle(CardGroupBoxStyle())
+       .groupBoxStyle(CardGroupBoxStyle())
     }
 }
 

@@ -14,16 +14,12 @@ struct SidebarView: View {
     
     var body: some View {
         List(selection: $selectedCategory) {
-            
             ForEach(categories, id: \.self) { store in
-              
                 Text(store.rawValue)
                     .tag(store)
             }
-           
         }
-        //.listStyle(.sidebar)
-        .navigationTitle("Order Your next Meal")
+        .navigationTitle("Categories")
     }
 }
 

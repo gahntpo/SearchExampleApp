@@ -16,9 +16,12 @@ struct ThreeColumnView: View {
         
         NavigationSplitView(columnVisibility: $columnVisibility) {
             SidebarView(selectedCategory: $viewModel.selectedCategory)
+              
         } content: {
-            ContentView(meals: viewModel.mealsForSelectedCategory,
+            ContentView(meals: viewModel.filteredMeals,
                         selectedMeal: $viewModel.selectedMeal)
+            .navigationTitle(viewModel.selectedCategory?.rawValue ?? "Your Meals")
+           
         } detail: {
             if let meal = viewModel.selectedMeal {
                 DetailView(meal: meal)
@@ -26,6 +29,7 @@ struct ThreeColumnView: View {
                 Text("Detail")
             }
         }
+        .searchable(text: $viewModel.searchText)
     }
 }
 
@@ -36,3 +40,6 @@ struct ThreeColumnView_Previews: PreviewProvider {
         ThreeColumnView()
     }
 }
+
+
+

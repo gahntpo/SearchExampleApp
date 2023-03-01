@@ -13,6 +13,20 @@ class MealCategoryViewModel: ObservableObject {
     @Published var selectedCategory: MealCategory? = .oceanian
     @Published var selectedMeal: Meal? = nil
     
+    @Published var searchText: String = ""
+    
+    var filteredMeals: [Meal] {
+        guard selectedCategory != nil else { return [] }
+        
+        var results = mealsForSelectedCategory
+        
+        guard !searchText.isEmpty else { return results }
+        
+        return results.filter { meal in
+            meal.name.lowercased().contains(searchText.lowercased())
+        }
+    }
+    
     var mealsForSelectedCategory: [Meal] {
         if let selectedCategory = selectedCategory {
             return meals.filter { $0.category == selectedCategory }

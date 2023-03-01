@@ -8,10 +8,6 @@
 import SwiftUI
 
 struct CardGroupBoxStyle: GroupBoxStyle {
-    var background: some View {
-        RoundedRectangle(cornerRadius: 15)
-            .fill(Color.orange)
-    }
 
     func makeBody(configuration: Configuration) -> some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -23,11 +19,10 @@ struct CardGroupBoxStyle: GroupBoxStyle {
         }
         #if os(iOS)
         .background(Color(.tertiarySystemBackground))
-        #else
-        .background(.thickMaterial)
-        #endif
         .cornerRadius(10)
         .shadow(radius: 5)
+        #endif
+      
         
     }
 }

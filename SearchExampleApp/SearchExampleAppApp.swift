@@ -11,7 +11,25 @@ import SwiftUI
 struct SearchExampleAppApp: App {
     var body: some Scene {
         WindowGroup {
-            MealListView()
+            ThreeColumnView()
+            
+            /*
+            TabView {
+                SearchSuggestionMealListView()
+                    .tabItem {
+                        Text("old")
+                    }
+                UpdatedSearchSuggestionMealView()
+                    .tabItem {
+                        Text("new")
+                    }
+                
+                SearchTokenMealListView()
+                    .tabItem {
+                        Text("token")
+                    }
+            }
+             */
         }
     }
 }

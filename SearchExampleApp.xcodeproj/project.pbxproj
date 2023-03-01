@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170258A829ACDD61000F2304 /* UpdatedSearchSuggestionMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258A729ACDD61000F2304 /* UpdatedSearchSuggestionMealView.swift */; };
+		170258AA29ACDF1C000F2304 /* SearchTokenMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258A929ACDF1C000F2304 /* SearchTokenMealListView.swift */; };
+		170258AC29ACDF5F000F2304 /* MealTokenListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258AB29ACDF5F000F2304 /* MealTokenListViewModel.swift */; };
+		170258AE29ACE430000F2304 /* SearchScopeMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258AD29ACE430000F2304 /* SearchScopeMealListView.swift */; };
+		170258B029AD107A000F2304 /* DismissSearchMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258AF29AD107A000F2304 /* DismissSearchMealListView.swift */; };
+		170258B229AD1323000F2304 /* SearchCustomizeTokenMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258B129AD1323000F2304 /* SearchCustomizeTokenMealListView.swift */; };
+		170258B429AD134B000F2304 /* CustomMealTokenListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258B329AD134B000F2304 /* CustomMealTokenListViewModel.swift */; };
+		170258B629AD235E000F2304 /* SubmitSearchMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258B529AD235E000F2304 /* SubmitSearchMealListView.swift */; };
+		170258B929AD2459000F2304 /* SearchVisibilityMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170258B829AD2459000F2304 /* SearchVisibilityMealListView.swift */; };
 		177259C929ACA35F00370197 /* SearchExampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259C829ACA35F00370197 /* SearchExampleAppApp.swift */; };
 		177259CD29ACA36100370197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177259CC29ACA36100370197 /* Assets.xcassets */; };
 		177259D129ACA36100370197 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177259D029ACA36100370197 /* Preview Assets.xcassets */; };
@@ -23,7 +32,7 @@
 		177259EF29ACA3A600370197 /* asian.png in Resources */ = {isa = PBXBuildFile; fileRef = 177259E629ACA3A600370197 /* asian.png */; };
 		177259F329ACA3AD00370197 /* MealCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259F129ACA3AD00370197 /* MealCategory.swift */; };
 		177259F429ACA3AD00370197 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259F229ACA3AD00370197 /* Meal.swift */; };
-		177259F829ACA54200370197 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259F729ACA54200370197 /* MealListView.swift */; };
+		177259F829ACA54200370197 /* MealListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259F729ACA54200370197 /* MealListContentView.swift */; };
 		177259FA29ACA55700370197 /* MealListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259F929ACA55700370197 /* MealListViewModel.swift */; };
 		177259FD29ACA63200370197 /* MealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259FC29ACA63200370197 /* MealCardView.swift */; };
 		177259FF29ACA72F00370197 /* StylingViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177259FE29ACA72F00370197 /* StylingViewModifiers.swift */; };
@@ -35,9 +44,24 @@
 		17725A0D29ACAA0800370197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17725A0929ACAA0800370197 /* ContentView.swift */; };
 		17725A0F29ACAA9000370197 /* MealCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17725A0E29ACAA9000370197 /* MealCategoryViewModel.swift */; };
 		17725A1129ACAAFA00370197 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17725A1029ACAAFA00370197 /* DataService.swift */; };
+		17725A1329ACCA0300370197 /* IsSearchingMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17725A1229ACCA0300370197 /* IsSearchingMealListView.swift */; };
+		17725A1529ACCC9300370197 /* MealSimpleSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17725A1429ACCC9300370197 /* MealSimpleSearchView.swift */; };
+		17725A1729ACD41C00370197 /* SearchSuggestionMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17725A1629ACD41C00370197 /* SearchSuggestionMealListView.swift */; };
+		17C62F4229AD2F7E000D0CAC /* HideSuggestionMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C62F4129AD2F7E000D0CAC /* HideSuggestionMealListView.swift */; };
+		17C62F4429AD3485000D0CAC /* PromptMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C62F4329AD3485000D0CAC /* PromptMealListView.swift */; };
+		17C62F4629ADEC17000D0CAC /* IconSearchTokenMealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C62F4529ADEC17000D0CAC /* IconSearchTokenMealListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		170258A729ACDD61000F2304 /* UpdatedSearchSuggestionMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedSearchSuggestionMealView.swift; sourceTree = "<group>"; };
+		170258A929ACDF1C000F2304 /* SearchTokenMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTokenMealListView.swift; sourceTree = "<group>"; };
+		170258AB29ACDF5F000F2304 /* MealTokenListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTokenListViewModel.swift; sourceTree = "<group>"; };
+		170258AD29ACE430000F2304 /* SearchScopeMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScopeMealListView.swift; sourceTree = "<group>"; };
+		170258AF29AD107A000F2304 /* DismissSearchMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSearchMealListView.swift; sourceTree = "<group>"; };
+		170258B129AD1323000F2304 /* SearchCustomizeTokenMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCustomizeTokenMealListView.swift; sourceTree = "<group>"; };
+		170258B329AD134B000F2304 /* CustomMealTokenListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMealTokenListViewModel.swift; sourceTree = "<group>"; };
+		170258B529AD235E000F2304 /* SubmitSearchMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitSearchMealListView.swift; sourceTree = "<group>"; };
+		170258B829AD2459000F2304 /* SearchVisibilityMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVisibilityMealListView.swift; sourceTree = "<group>"; };
 		177259C529ACA35F00370197 /* SearchExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177259C829ACA35F00370197 /* SearchExampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchExampleAppApp.swift; sourceTree = "<group>"; };
 		177259CC29ACA36100370197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +80,7 @@
 		177259E629ACA3A600370197 /* asian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asian.png; sourceTree = "<group>"; };
 		177259F129ACA3AD00370197 /* MealCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealCategory.swift; sourceTree = "<group>"; };
 		177259F229ACA3AD00370197 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
-		177259F729ACA54200370197 /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		177259F729ACA54200370197 /* MealListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListContentView.swift; sourceTree = "<group>"; };
 		177259F929ACA55700370197 /* MealListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModel.swift; sourceTree = "<group>"; };
 		177259FC29ACA63200370197 /* MealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCardView.swift; sourceTree = "<group>"; };
 		177259FE29ACA72F00370197 /* StylingViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylingViewModifiers.swift; sourceTree = "<group>"; };
@@ -68,6 +92,12 @@
 		17725A0929ACAA0800370197 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17725A0E29ACAA9000370197 /* MealCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCategoryViewModel.swift; sourceTree = "<group>"; };
 		17725A1029ACAAFA00370197 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		17725A1229ACCA0300370197 /* IsSearchingMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSearchingMealListView.swift; sourceTree = "<group>"; };
+		17725A1429ACCC9300370197 /* MealSimpleSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSimpleSearchView.swift; sourceTree = "<group>"; };
+		17725A1629ACD41C00370197 /* SearchSuggestionMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSuggestionMealListView.swift; sourceTree = "<group>"; };
+		17C62F4129AD2F7E000D0CAC /* HideSuggestionMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideSuggestionMealListView.swift; sourceTree = "<group>"; };
+		17C62F4329AD3485000D0CAC /* PromptMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptMealListView.swift; sourceTree = "<group>"; };
+		17C62F4529ADEC17000D0CAC /* IconSearchTokenMealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSearchTokenMealListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170258A629ACDAAF000F2304 /* list search interaction */ = {
+			isa = PBXGroup;
+			children = (
+				17725A1229ACCA0300370197 /* IsSearchingMealListView.swift */,
+				177259F729ACA54200370197 /* MealListContentView.swift */,
+				170258AF29AD107A000F2304 /* DismissSearchMealListView.swift */,
+				170258B529AD235E000F2304 /* SubmitSearchMealListView.swift */,
+			);
+			path = "list search interaction";
+			sourceTree = "<group>";
+		};
+		170258B729AD243E000F2304 /* search styling */ = {
+			isa = PBXGroup;
+			children = (
+				17C62F4329AD3485000D0CAC /* PromptMealListView.swift */,
+				170258B829AD2459000F2304 /* SearchVisibilityMealListView.swift */,
+				17725A0529ACAA0800370197 /* three column navigation */,
+			);
+			path = "search styling";
+			sourceTree = "<group>";
+		};
 		177259BC29ACA35F00370197 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				177259F929ACA55700370197 /* MealListViewModel.swift */,
+				170258AB29ACDF5F000F2304 /* MealTokenListViewModel.swift */,
+				170258B329AD134B000F2304 /* CustomMealTokenListViewModel.swift */,
 				17725A0E29ACAA9000370197 /* MealCategoryViewModel.swift */,
 				17725A1029ACAAFA00370197 /* DataService.swift */,
 			);
@@ -177,7 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				17725A0429ACA9EA00370197 /* list searching */,
-				17725A0529ACAA0800370197 /* three column navigation */,
+				170258A629ACDAAF000F2304 /* list search interaction */,
+				170258B729AD243E000F2304 /* search styling */,
 				177259FB29ACA61F00370197 /* meal cells */,
 			);
 			path = View;
@@ -197,7 +251,14 @@
 		17725A0429ACA9EA00370197 /* list searching */ = {
 			isa = PBXGroup;
 			children = (
-				177259F729ACA54200370197 /* MealListView.swift */,
+				17725A1429ACCC9300370197 /* MealSimpleSearchView.swift */,
+				17725A1629ACD41C00370197 /* SearchSuggestionMealListView.swift */,
+				170258A729ACDD61000F2304 /* UpdatedSearchSuggestionMealView.swift */,
+				17C62F4129AD2F7E000D0CAC /* HideSuggestionMealListView.swift */,
+				170258A929ACDF1C000F2304 /* SearchTokenMealListView.swift */,
+				17C62F4529ADEC17000D0CAC /* IconSearchTokenMealListView.swift */,
+				170258B129AD1323000F2304 /* SearchCustomizeTokenMealListView.swift */,
+				170258AD29ACE430000F2304 /* SearchScopeMealListView.swift */,
 			);
 			path = "list searching";
 			sourceTree = "<group>";
@@ -295,20 +356,35 @@
 				17725A0F29ACAA9000370197 /* MealCategoryViewModel.swift in Sources */,
 				177259FD29ACA63200370197 /* MealCardView.swift in Sources */,
 				17725A0D29ACAA0800370197 /* ContentView.swift in Sources */,
+				170258AC29ACDF5F000F2304 /* MealTokenListViewModel.swift in Sources */,
+				170258B429AD134B000F2304 /* CustomMealTokenListViewModel.swift in Sources */,
 				177259FA29ACA55700370197 /* MealListViewModel.swift in Sources */,
+				17C62F4229AD2F7E000D0CAC /* HideSuggestionMealListView.swift in Sources */,
+				17725A1329ACCA0300370197 /* IsSearchingMealListView.swift in Sources */,
+				170258AE29ACE430000F2304 /* SearchScopeMealListView.swift in Sources */,
 				17725A0329ACA7BA00370197 /* MealRow.swift in Sources */,
 				17725A0C29ACAA0800370197 /* ThreeColumnView.swift in Sources */,
 				17725A0129ACA76A00370197 /* CardGroupBoxStyle.swift in Sources */,
 				177259DA29ACA39F00370197 /* macOS.swift in Sources */,
+				170258B029AD107A000F2304 /* DismissSearchMealListView.swift in Sources */,
 				17725A1129ACAAFA00370197 /* DataService.swift in Sources */,
+				17C62F4429AD3485000D0CAC /* PromptMealListView.swift in Sources */,
+				17725A1529ACCC9300370197 /* MealSimpleSearchView.swift in Sources */,
+				170258A829ACDD61000F2304 /* UpdatedSearchSuggestionMealView.swift in Sources */,
 				177259C929ACA35F00370197 /* SearchExampleAppApp.swift in Sources */,
 				17725A0A29ACAA0800370197 /* DetailView.swift in Sources */,
+				17725A1729ACD41C00370197 /* SearchSuggestionMealListView.swift in Sources */,
 				177259F329ACA3AD00370197 /* MealCategory.swift in Sources */,
+				17C62F4629ADEC17000D0CAC /* IconSearchTokenMealListView.swift in Sources */,
 				17725A0B29ACAA0800370197 /* SidebarView.swift in Sources */,
+				170258B629AD235E000F2304 /* SubmitSearchMealListView.swift in Sources */,
 				177259FF29ACA72F00370197 /* StylingViewModifiers.swift in Sources */,
 				177259DB29ACA39F00370197 /* Image+helper.swift in Sources */,
-				177259F829ACA54200370197 /* MealListView.swift in Sources */,
+				170258AA29ACDF1C000F2304 /* SearchTokenMealListView.swift in Sources */,
+				177259F829ACA54200370197 /* MealListContentView.swift in Sources */,
 				177259F429ACA3AD00370197 /* Meal.swift in Sources */,
+				170258B229AD1323000F2304 /* SearchCustomizeTokenMealListView.swift in Sources */,
+				170258B929AD2459000F2304 /* SearchVisibilityMealListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,10 +523,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.karinprater.SearchExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,10 +561,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.karinprater.SearchExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

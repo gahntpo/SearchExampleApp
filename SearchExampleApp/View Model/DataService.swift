@@ -16,7 +16,7 @@ class DataService {
                 
                 let jsonData = try Data(contentsOf: filePath)
                 let decodedData = try JSONDecoder().decode([Meal].self, from: jsonData)
-                print("Decoded: \(decodedData)")
+
                 dbData = decodedData
             } else {
                 return [Meal]()
