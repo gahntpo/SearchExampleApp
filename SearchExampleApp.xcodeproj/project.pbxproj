@@ -132,6 +132,17 @@
 			path = "search styling";
 			sourceTree = "<group>";
 		};
+		17584FD62A5E89710002AF35 /* tokens and scope */ = {
+			isa = PBXGroup;
+			children = (
+				170258A929ACDF1C000F2304 /* SearchTokenMealListView.swift */,
+				17C62F4529ADEC17000D0CAC /* IconSearchTokenMealListView.swift */,
+				170258B129AD1323000F2304 /* SearchCustomizeTokenMealListView.swift */,
+				170258AD29ACE430000F2304 /* SearchScopeMealListView.swift */,
+			);
+			path = "tokens and scope";
+			sourceTree = "<group>";
+		};
 		177259BC29ACA35F00370197 = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				17725A0429ACA9EA00370197 /* list searching */,
+				17584FD62A5E89710002AF35 /* tokens and scope */,
 				170258A629ACDAAF000F2304 /* list search interaction */,
 				170258B729AD243E000F2304 /* search styling */,
 				177259FB29ACA61F00370197 /* meal cells */,
@@ -255,10 +267,6 @@
 				17725A1629ACD41C00370197 /* SearchSuggestionMealListView.swift */,
 				170258A729ACDD61000F2304 /* UpdatedSearchSuggestionMealView.swift */,
 				17C62F4129AD2F7E000D0CAC /* HideSuggestionMealListView.swift */,
-				170258A929ACDF1C000F2304 /* SearchTokenMealListView.swift */,
-				17C62F4529ADEC17000D0CAC /* IconSearchTokenMealListView.swift */,
-				170258B129AD1323000F2304 /* SearchCustomizeTokenMealListView.swift */,
-				170258AD29ACE430000F2304 /* SearchScopeMealListView.swift */,
 			);
 			path = "list searching";
 			sourceTree = "<group>";

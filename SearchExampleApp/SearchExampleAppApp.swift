@@ -11,9 +11,11 @@ import SwiftUI
 struct SearchExampleAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ThreeColumnView()
             
-            /*
+            #if os(macOS)
+            ThreeColumnView()
+            #else
+            
             TabView {
                 SearchSuggestionMealListView()
                     .tabItem {
@@ -29,7 +31,7 @@ struct SearchExampleAppApp: App {
                         Text("token")
                     }
             }
-             */
+            #endif
         }
     }
 }
