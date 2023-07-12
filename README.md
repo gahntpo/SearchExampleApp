@@ -19,7 +19,7 @@ You can also show search suggestions depending on the users input. For example, 
 ## Search Tokens and Search Scope
 More advanced filtering can be done with search tokens and search scope which are available with iOS 16+ and macOS 13.
 A detailed description can be found in these blog posts: 
-- [SwiftUI Search Bar: Best Practices and Examples](https://www.swiftyplace.com/blog/swiftui-search-bar-best-practices-and-examples)
+- [How to use Search Scopes in SwiftUI to improve search on iOS and macOS](https://www.swiftyplace.com/blog/how-to-use-search-scopes-in-swiftui-to-improve-search-on-ios-and-macos)
 - [Search Tokens in SwiftUI: How to implement advanced search in iOS and macOS](https://www.swiftyplace.com/blog/search-tokens-swiftui-how-to-implement-advanced-search-in-ios-and-macos)
 
 ![](/images/search_tokens.jpg)
